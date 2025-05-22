@@ -10,4 +10,5 @@ public class GerenciamentoTarefaApplication {
 
 		SpringApplication.run(GerenciamentoTarefaApplication.class, args);
 	}
+	//adicionando comentario
 }
