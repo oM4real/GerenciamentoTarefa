@@ -10,5 +10,6 @@ public class GerenciamentoTarefaApplication {
 
 		SpringApplication.run(GerenciamentoTarefaApplication.class, args);
 	}
-	//adicionando comentario
+	//adicionando comentario novo
 }
+//pao de queijo
