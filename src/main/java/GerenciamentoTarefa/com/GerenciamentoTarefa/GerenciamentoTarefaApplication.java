@@ -10,5 +10,5 @@ public class GerenciamentoTarefaApplication {
 
 		SpringApplication.run(GerenciamentoTarefaApplication.class, args);
 	}
-	//comentario novo hoje
+	//comentario novo hoje agora
 }
