@@ -21,7 +21,22 @@ public class Task {
     private String description;
     private boolean completed;
 
+    public Task() {
+    }
+
+    public static Task createTask() {
+        return new Task();
+    }
+
     public Object isCompleted() {
+
+        return null;
+    }
+
+    public void getClass(Object completed) {
+    }
+
+    public Object getTitle() {
 
         return null;
     }

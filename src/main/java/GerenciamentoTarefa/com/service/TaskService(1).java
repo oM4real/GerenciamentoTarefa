@@ -1,6 +1,7 @@
 package GerenciamentoTarefa.com.service;
 
 import GerenciamentoTarefa.com.model.Task;
+import GerenciamentoTarefa.com.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -27,9 +28,9 @@ public class TaskService {
 
     public Task update(Long id, Task taskData) {
         return repository.findById(id).map(task -> {
-            task.setTitle(taskData.getTitle());
+            task.getClass(taskData.getTitle());
             task.setDescription(taskData.getDescription());
-            task.setCompleted(taskData.isCompleted());
+            task.getClass(taskData.isCompleted());
             return repository.save(task);
         }).orElse(null);
     }

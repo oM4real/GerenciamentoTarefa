@@ -1,6 +1,6 @@
 package GerenciamentoTarefa.com.GerenciamentoTarefa;
 
-public class TaskImpl extends GerenciamentoTarefa.com.model.Task {
+public class Task extends GerenciamentoTarefa.com.model.Task {
     private TaskImpl() {
     }
 
