@@ -20,4 +20,9 @@ public class Task {
     private String title;
     private String description;
     private boolean completed;
-}
+
+    public Object isCompleted() {
+
+        return null;
+    }
+
